@@ -1,0 +1,27 @@
+{
+  "name": "backonshop",
+  "version": "1.0.0",
+  "description": "Tienda virtual",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brahianf/BackOnShop.git"
+  },
+  "keywords": [
+    "API",
+    "Tokens",
+    "MySQL",
+    "MicroServiciosNode",
+    "Redis",
+    "Nginx"
+  ],
+  "author": "Brahianf Hurtado <brahianf@unicauca.edu.co>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brahianf/BackOnShop/issues"
+  },
+  "homepage": "https://github.com/brahianf/BackOnShop#readme"
+}
