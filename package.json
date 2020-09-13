@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/brahianf/BackOnShop/issues"
   },
-  "homepage": "https://github.com/brahianf/BackOnShop#readme"
+  "homepage": "https://github.com/brahianf/BackOnShop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
