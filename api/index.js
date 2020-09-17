@@ -8,7 +8,7 @@ const user = require('./components/user/network');
 
 const app = express();
 
-// app.use(bodyParser.json());
+app.use(bodyParser.json());
 const swaggerDoc = require('./swagger.json')
 
 // Router
