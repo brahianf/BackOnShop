@@ -16,6 +16,7 @@ module.exports = function(injectedStore){
       .then(sonIguales => {
         if (sonIguales === true){
           //Generar Token
+          console.log(auth.sign(data));
           return auth.sign(data);
         } else {
           throw new Error('Información Inválida')

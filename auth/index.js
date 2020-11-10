@@ -13,7 +13,9 @@ function verify(token){
 const check = {
   own: function (req, owner) {
     const decoded = decodeHeader(req);
-    console.log(decoded);
+    if(decoded.id !== owner) {
+      throw new Error('Accion no permitida')
+    }
   },
 }
 
@@ -41,4 +43,5 @@ function decodeHeader (req) {
 
 module.exports = {
   sign,
+  check,
 }
